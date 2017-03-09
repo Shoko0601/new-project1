@@ -15,6 +15,7 @@
 		84EA11881E704470002758DA /* memo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA11871E704470002758DA /* memo2Tests.swift */; };
 		84EA11931E704470002758DA /* memo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA11921E704470002758DA /* memo2UITests.swift */; };
 		84EA11A11E704C9B002758DA /* i_tora34.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A01E704C9B002758DA /* i_tora34.png */; };
+		84EA11A31E719C69002758DA /* image_20170308203139.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A21E719C69002758DA /* image_20170308203139.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84EA11921E704470002758DA /* memo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo2UITests.swift; sourceTree = "<group>"; };
 		84EA11941E704470002758DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EA11A01E704C9B002758DA /* i_tora34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i_tora34.png; sourceTree = "<group>"; };
+		84EA11A21E719C69002758DA /* image_20170308203139.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_20170308203139.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		84EA11711E704470002758DA /* memo2 */ = {
 			isa = PBXGroup;
 			children = (
+				84EA11A21E719C69002758DA /* image_20170308203139.jpg */,
 				84EA11A01E704C9B002758DA /* i_tora34.png */,
 				84EA11721E704470002758DA /* AppDelegate.swift */,
 				84EA11741E704470002758DA /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA11A31E719C69002758DA /* image_20170308203139.jpg in Resources */,
 				84EA11A11E704C9B002758DA /* i_tora34.png in Resources */,
 				84EA117D1E704470002758DA /* LaunchScreen.storyboard in Resources */,
 				84EA117A1E704470002758DA /* Assets.xcassets in Resources */,

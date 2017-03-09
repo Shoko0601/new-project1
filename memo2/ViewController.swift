@@ -20,6 +20,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var memoListView2: UITableView!
     
     
+    
+    
 
     var memoList: [String] = []
     var editRow: Int = unselectedRow
@@ -112,18 +114,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         memoListView.reloadData()
     }
     func applyMemo2() {
-        if editMemoField.text == nil {
+        if editMemoField2.text == nil {
             return
         }
         
         if editRow == unselectedRow {
-            memoList.append(editMemoField.text!)
+            memoList2.append(editMemoField2.text!)
         } else {
-            memoList[editRow] = editMemoField.text!
+            memoList2[editRow] = editMemoField2.text!
         }
-        editMemoField.text = ""
-        editRow = unselectedRow
-        memoListView.reloadData()
+        editMemoField2.text = ""
+        editRow2 = unselectedRow
+        memoListView2.reloadData()
         
     }
 //以下電卓
