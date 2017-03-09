@@ -60,6 +60,12 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iw9-5b-FNB">
+                                <rect key="frame" x="230" y="11" width="28" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="i_tora34.png" translatesAutoresizingMaskIntoConstraints="NO" id="gll-FM-qet">
                                 <rect key="frame" x="4" y="332" width="311" height="148"/>
                             </imageView>
@@ -193,12 +199,18 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="AMi-ke-H43"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iw9-5b-FNB">
-                                <rect key="frame" x="230" y="11" width="28" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bfE-wg-my6">
+                                <rect key="frame" x="64" y="415" width="49" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zY3-fa-6Zh">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="30"/>
+                                        <state key="normal" title="Picture"/>
+                                        <connections>
+                                            <segue destination="Of0-MH-ZcD" kind="presentation" id="E9c-Wm-3aL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -218,9 +230,63 @@
             </objects>
             <point key="canvasLocation" x="421" y="357"/>
         </scene>
+        <!--picture-->
+        <scene sceneID="5rx-DH-cKn">
+            <objects>
+                <viewController title="picture" id="Of0-MH-ZcD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ymX-Rh-Xie"/>
+                        <viewControllerLayoutGuide type="bottom" id="K5Q-iG-ilo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gwf-3W-q4d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="8424.png" translatesAutoresizingMaskIntoConstraints="NO" id="0lw-86-JXC">
+                                <rect key="frame" x="0.0" y="-8" width="323" height="488"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="FbP-sa-exc"/>
+                                    <constraint firstAttribute="height" constant="488" id="Zvd-9C-AfZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Picture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ar-nC-PgZ">
+                                <rect key="frame" x="176" y="45" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="illust4026.png" translatesAutoresizingMaskIntoConstraints="NO" id="2WP-l7-43I">
+                                <rect key="frame" x="55" y="372" width="280" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="illust3590.png" translatesAutoresizingMaskIntoConstraints="NO" id="J2v-Nx-T4n">
+                                <rect key="frame" x="63" y="123" width="280" height="191"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3J-dC-uZY">
+                                <rect key="frame" x="83" y="155" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsn-GS-9vz">
+                                <rect key="frame" x="167" y="334" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Put"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0lw-86-JXC" firstAttribute="centerX" secondItem="gwf-3W-q4d" secondAttribute="centerX" id="E8Y-Gt-qYc"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NN-Af-XPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="357"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="8424.png" width="1000" height="750"/>
         <image name="i_tora34.png" width="1009" height="442"/>
+        <image name="illust3590.png" width="1467" height="1025"/>
+        <image name="illust4026.png" width="1009" height="415"/>
         <image name="image_20170308203139.jpg" width="744" height="1392"/>
     </resources>
 </document>

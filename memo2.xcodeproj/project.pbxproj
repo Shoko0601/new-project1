@@ -16,6 +16,9 @@
 		84EA11931E704470002758DA /* memo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA11921E704470002758DA /* memo2UITests.swift */; };
 		84EA11A11E704C9B002758DA /* i_tora34.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A01E704C9B002758DA /* i_tora34.png */; };
 		84EA11A31E719C69002758DA /* image_20170308203139.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A21E719C69002758DA /* image_20170308203139.jpg */; };
+		84EA11A51E71B2D7002758DA /* illust4026.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A41E71B2D7002758DA /* illust4026.png */; };
+		84EA11A71E71B37C002758DA /* illust3590.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A61E71B37B002758DA /* illust3590.png */; };
+		84EA11AA1E71B8F8002758DA /* 8424.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA11A91E71B8F8002758DA /* 8424.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		84EA11941E704470002758DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EA11A01E704C9B002758DA /* i_tora34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i_tora34.png; sourceTree = "<group>"; };
 		84EA11A21E719C69002758DA /* image_20170308203139.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_20170308203139.jpg; sourceTree = "<group>"; };
+		84EA11A41E71B2D7002758DA /* illust4026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = illust4026.png; sourceTree = "<group>"; };
+		84EA11A61E71B37B002758DA /* illust3590.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = illust3590.png; sourceTree = "<group>"; };
+		84EA11A91E71B8F8002758DA /* 8424.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8424.png; path = ../../../Downloads/8424.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		84EA11711E704470002758DA /* memo2 */ = {
 			isa = PBXGroup;
 			children = (
+				84EA11A91E71B8F8002758DA /* 8424.png */,
+				84EA11A61E71B37B002758DA /* illust3590.png */,
+				84EA11A41E71B2D7002758DA /* illust4026.png */,
 				84EA11A21E719C69002758DA /* image_20170308203139.jpg */,
 				84EA11A01E704C9B002758DA /* i_tora34.png */,
 				84EA11721E704470002758DA /* AppDelegate.swift */,
@@ -241,7 +250,10 @@
 				84EA11A31E719C69002758DA /* image_20170308203139.jpg in Resources */,
 				84EA11A11E704C9B002758DA /* i_tora34.png in Resources */,
 				84EA117D1E704470002758DA /* LaunchScreen.storyboard in Resources */,
+				84EA11A71E71B37C002758DA /* illust3590.png in Resources */,
 				84EA117A1E704470002758DA /* Assets.xcassets in Resources */,
+				84EA11AA1E71B8F8002758DA /* 8424.png in Resources */,
+				84EA11A51E71B2D7002758DA /* illust4026.png in Resources */,
 				84EA11781E704470002758DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
